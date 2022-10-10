@@ -1,0 +1,40 @@
+---
+title: "project 5"
+author: "bigMACs"
+date: "2022-10-10"
+output: html_document
+bibliography: ????
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+Maintaining a stable body temperature is an important physiological role for humans, and thermoregulatory defenses keep the body in consistent temperatures. Examples of thermoregulatory defenses include shivering or sweating, which are responses invoked by the hypothalamus in an attempt to keep the body temperature steady under changing conditions. The purpose of this study is to measure body temperatures of 4 different people under varying activity levels using the DHT11 sensor. After collecting this data, it was examined using a ggplot from R studio. The data from all subjects were combined into one table, and showed the standard deviations and means, and the temperature measurements for each activity level for each subject. 
+
+
+
+### Methods
+In order to evaluate the effect of physical activity on body temperature, we recorded the axillary temperature (armpit) after a duration of inactivity and intense activity. We recorded these temperatures using a DHT11 sensor collected on Arduino software. The data from the four group members were then compiled into 8 different csvs detailing their active and inactive body temperatures.
+///<center>
+///![](Arduino_Uno.png)  
+///</center>
+The inactivity data for each member was taken on the couch for 100 seconds or until the temperature seemed to stabilize. Comparetively, for the activation period we all participated in the game, Just Dance, for five munites, and then sat down to measure the new body temperature for 100 seconds. We then plotted each member's temperature using a +/- standard deviation to compare the means of all of our temperatures. 
+
+###Results 
+
+
+### Discussion 
+
+
+### Contributions 
+John Santoianni: formatting code, creating layout and methods
+Samantha Davis: found study did intro and bibliogprahy
+Jack : Did sensing work and exporting data
+Philip: did results and discussion
+
+
+
+
+
